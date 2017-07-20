@@ -1,0 +1,410 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Functionality for Cerium theme v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-10-22 06:22:54+0000\n"
+"Last-Translator: smaids <smaids2007@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: functionality-for-ftg-theme.php:0
+#@ functionality-for-ftg-theme
+msgid "Functionality for Cerium theme"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: functionality-for-ftg-theme.php:0
+#@ functionality-for-ftg-theme
+msgid "http://cohhe.com/"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: functionality-for-ftg-theme.php:0
+#@ functionality-for-ftg-theme
+msgid "This plugin contains Cerium theme core functionality"
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: functionality-for-ftg-theme.php:0
+#@ functionality-for-ftg-theme
+msgid "Cohhe"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: functionality-for-ftg-theme.php:0
+#@ functionality-for-ftg-theme
+msgid "1.0"
+msgstr ""
+
+#: functionality-for-ftg-theme.php:88
+#@ functionality-for-ftg-theme
+msgid "Services"
+msgstr ""
+
+#: functionality-for-ftg-theme.php:89
+#@ functionality-for-ftg-theme
+msgid "Service"
+msgstr ""
+
+#: functionality-for-ftg-theme.php:157
+#: functionality-for-ftg-theme.php:199
+#@ functionality-for-ftg-theme
+msgid "Read More"
+msgstr ""
+
+#: functionality-for-ftg-theme.php:434
+#@ functionality-for-ftg-theme
+msgid "Before"
+msgstr ""
+
+#: functionality-for-ftg-theme.php:435
+#@ functionality-for-ftg-theme
+msgid "After"
+msgstr ""
+
+#: functionality-for-ftg-theme.php:537
+#@ functionality-for-ftg-theme
+msgid "Have a Question?"
+msgstr ""
+
+#: includes/widgets/widget-about-author.php:11
+#@ functionality-for-ftg-theme
+msgid "Display information about a person."
+msgstr ""
+
+#: includes/widgets/widget-about-author.php:13
+#@ functionality-for-ftg-theme
+msgid "Cerium - About Author"
+msgstr ""
+
+#: includes/widgets/widget-about-author.php:97
+#: includes/widgets/widget-recent-posts-plus.php:361
+#@ functionality-for-ftg-theme
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/widget-about-author.php:102
+#@ functionality-for-ftg-theme
+msgid "Image:"
+msgstr ""
+
+#: includes/widgets/widget-about-author.php:110
+#@ functionality-for-ftg-theme
+msgid "Author name:"
+msgstr ""
+
+#: includes/widgets/widget-about-author.php:115
+#@ functionality-for-ftg-theme
+msgid "Author position:"
+msgstr ""
+
+#: includes/widgets/widget-about-author.php:120
+#@ functionality-for-ftg-theme
+msgid "Author Facebook URL:"
+msgstr ""
+
+#: includes/widgets/widget-about-author.php:125
+#@ functionality-for-ftg-theme
+msgid "Author YouTube URL:"
+msgstr ""
+
+#: includes/widgets/widget-about-author.php:130
+#@ functionality-for-ftg-theme
+msgid "Author Twitter URL:"
+msgstr ""
+
+#: includes/widgets/widget-about-author.php:135
+#@ functionality-for-ftg-theme
+msgid "Author Google+ URL:"
+msgstr ""
+
+#: includes/widgets/widget-about-author.php:140
+#@ functionality-for-ftg-theme
+msgid "Author description:"
+msgstr ""
+
+#: includes/widgets/widget-fast-flickr.php:37
+#@ functionality-for-ftg-theme
+msgid "Flickr Images"
+msgstr ""
+
+#: includes/widgets/widget-fast-flickr.php:132
+#@ functionality-for-ftg-theme
+msgid "Fast Flickr Title:"
+msgstr ""
+
+#: includes/widgets/widget-fast-flickr.php:133
+#@ functionality-for-ftg-theme
+msgid "Flickr RSS URL or Screen name:"
+msgstr ""
+
+#: includes/widgets/widget-fast-flickr.php:134
+#@ functionality-for-ftg-theme
+msgid "Thumbnail, square or medium?"
+msgstr ""
+
+#: includes/widgets/widget-fast-flickr.php:143
+#@ functionality-for-ftg-theme
+msgid "Before item:"
+msgstr ""
+
+#: includes/widgets/widget-fast-flickr.php:144
+#@ functionality-for-ftg-theme
+msgid "After item:"
+msgstr ""
+
+#: includes/widgets/widget-fast-flickr.php:145
+#@ functionality-for-ftg-theme
+msgid "Before widget:"
+msgstr ""
+
+#: includes/widgets/widget-fast-flickr.php:146
+#@ functionality-for-ftg-theme
+msgid "After widget:"
+msgstr ""
+
+#: includes/widgets/widget-fast-flickr.php:147
+#@ functionality-for-ftg-theme
+msgid "How many items?"
+msgstr ""
+
+#: includes/widgets/widget-fast-flickr.php:148
+#@ functionality-for-ftg-theme
+msgid "More link anchor text:"
+msgstr ""
+
+#: includes/widgets/widget-fast-flickr.php:149
+#@ functionality-for-ftg-theme
+msgid "Filter by tags (comma seperated):"
+msgstr ""
+
+#: includes/widgets/widget-fast-flickr.php:150
+#@ functionality-for-ftg-theme
+msgid "Target: _blank"
+msgstr ""
+
+#: includes/widgets/widget-fast-flickr.php:151
+#@ functionality-for-ftg-theme
+msgid "Display titles"
+msgstr ""
+
+#: includes/widgets/widget-fast-flickr.php:152
+#@ functionality-for-ftg-theme
+msgid "Use Thickbox"
+msgstr ""
+
+#: includes/widgets/widget-fast-flickr.php:153
+#@ functionality-for-ftg-theme
+msgid "Random pick"
+msgstr ""
+
+#: includes/widgets/widget-fast-flickr.php:154
+#@ functionality-for-ftg-theme
+msgid "Use random tag (needs random pick enable)"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:11
+#@ functionality-for-ftg-theme
+msgid "Cerium - Followers"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:14
+#@ functionality-for-ftg-theme
+msgid "Just a simple widget that displays social icons with follower count."
+msgstr ""
+
+#: includes/widgets/widget-followers.php:64
+#: includes/widgets/widget-followers.php:74
+#: includes/widgets/widget-followers.php:97
+#: includes/widgets/widget-followers.php:124
+#: includes/widgets/widget-followers.php:133
+#@ functionality-for-ftg-theme
+msgid "Followers"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:81
+#@ functionality-for-ftg-theme
+msgid "RSS"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:81
+#@ functionality-for-ftg-theme
+msgid "Subscribe"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:106
+#: includes/widgets/widget-followers.php:115
+#@ functionality-for-ftg-theme
+msgid "Subscribers"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:166
+#@ functionality-for-ftg-theme
+msgid "Widget title:"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:171
+#@ functionality-for-ftg-theme
+msgid "Facebook page ID:"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:176
+#@ functionality-for-ftg-theme
+msgid "Twitter username:"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:180
+#@ functionality-for-ftg-theme
+msgid "Twitter consumer key:"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:184
+#@ functionality-for-ftg-theme
+msgid "Twitter consumer secret:"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:188
+#@ functionality-for-ftg-theme
+msgid "Twitter user token:"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:192
+#@ functionality-for-ftg-theme
+msgid "Twitter user secret:"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:197
+#@ functionality-for-ftg-theme
+msgid "Google+ page ID:"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:202
+#@ functionality-for-ftg-theme
+msgid "Google+ API key:"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:207
+#@ functionality-for-ftg-theme
+msgid "YouTube username:"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:211
+#@ functionality-for-ftg-theme
+msgid "YouTube API key:"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:216
+#@ functionality-for-ftg-theme
+msgid "Vimeo username:"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:220
+#@ functionality-for-ftg-theme
+msgid "Vimeo access token:"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:225
+#@ functionality-for-ftg-theme
+msgid "Soundcloud username:"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:229
+#@ functionality-for-ftg-theme
+msgid "Soundclient client ID:"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:234
+#@ functionality-for-ftg-theme
+msgid "Instagram username:"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:238
+#@ functionality-for-ftg-theme
+msgid "Instagram access token:"
+msgstr ""
+
+#: includes/widgets/widget-followers.php:243
+#@ functionality-for-ftg-theme
+msgid "RSS Feed:"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts-plus.php:73
+#@ functionality-for-ftg-theme
+msgid "The most recent posts on your site. Includes advanced options."
+msgstr ""
+
+#: includes/widgets/widget-recent-posts-plus.php:75
+#@ functionality-for-ftg-theme
+msgid "Cerium - Recent Posts Plus"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts-plus.php:365
+#@ functionality-for-ftg-theme
+msgid "Number of posts to show:"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts-plus.php:372
+#@ functionality-for-ftg-theme
+msgid "Include post thumbnail"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts-plus.php:376
+#@ functionality-for-ftg-theme
+msgid "Include post excerpt"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts-plus.php:381
+#@ functionality-for-ftg-theme
+msgid "Show expert options"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts-plus.php:387
+#@ functionality-for-ftg-theme
+msgid "Limit post title:"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts-plus.php:395
+#@ functionality-for-ftg-theme
+msgid "Limit post excerpt:"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts-plus.php:403
+#@ functionality-for-ftg-theme
+msgid "Limit ellipsis:"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts-plus.php:408
+#@ functionality-for-ftg-theme
+msgid "Post date format:"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts-plus.php:414
+#@ functionality-for-ftg-theme
+msgid "Thumbnail size (WxH):"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts-plus.php:421
+#@ functionality-for-ftg-theme
+msgid "WP_Query Options"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts-plus.php:426
+#@ functionality-for-ftg-theme
+msgid "Widget Output Template"
+msgstr ""
+

@@ -1,0 +1,1738 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: " ";
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+/* Instagram */
+
+.ftg-author-info .ftg-author-picture {
+	width: auto;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	padding-right: 100px;
+}
+
+.ftg-author-info {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.ftg-author-info .ftg-author-picture img {
+	border-radius: 50%;
+}
+
+.ftg-author-info .ftg-author-data {
+	width: auto;
+	max-width: 75%;
+	display: inline-block;
+	text-align: left;
+	font-family: 'Open Sans';
+	padding-top: 5px;
+}
+
+.ftg-author-info .ftg-author-nickname {
+	color: #59585b;
+	font-size: 34px;
+	line-height: 40px;
+}
+
+.ftg-author-data .ftg-user-follow {
+	display: inline-block;
+	vertical-align: top;
+	line-height: 29px;
+	font-weight: 600;
+	padding: 0 11px;
+	margin: 4px 0 0 20px;
+	border: 1px solid #4090db!important;
+	border-radius: 3px!important;
+	color: #4090db!important;
+	cursor: pointer;
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.ftg-author-full-name {
+	color: #59585b;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 24px;
+	margin-right: 5px;
+}
+
+.ftg-author-bio {
+	color: #999999;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 24px;
+	margin-bottom: 0;
+	margin-top: 14px;
+}
+
+.ftg-author-website {
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 24px;
+	color: #125688;
+	position: relative;
+	top: -1px;
+}
+
+.ftg-author-meta {
+	margin-top: 11px;
+}
+
+.ftg-author-meta .ftg-meta-item {
+	font-size: 15px;
+	line-height: 16px;
+	margin: 0 40px 0 0;
+}
+
+.ftg-author-meta .ftg-meta-item .ftg-item-count {
+	font-weight: 600;
+	color: #59585b;
+}
+
+.ftg-author-media .ftg-media-item {
+	width: 33.33%;
+	float: left;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.ftg-author-media .ftg-media-item a {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.ftg-author-media .ftg-media-item .ftg-media-item-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(30,115,190,0.7);
+	z-index: 1;
+	opacity: 0;
+
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-ms-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
+}
+
+.ftg-author-media .ftg-media-item a:hover .ftg-media-item-overlay {
+	opacity: 1;
+}
+
+.ftg-author-media .ftg-media-item img {
+	width: 100%;
+	display: block;
+
+	-ms-transform: perspective(800px) translate3d(0px,0px,0px);
+	-webkit-transform: perspective(800px) translate3d(0px,0px,0px);
+	transform: perspective(800px) translate3d(0px,0px,0px);
+
+	-webkit-transition: transform .3s ease-in-out;
+	-moz-transition: transform .3s ease-in-out;
+	-ms-transition: transform .3s ease-in-out;
+	-o-transition: transform .3s ease-in-out;
+	transition: transform .3s ease-in-out;
+}
+
+.ftg-author-media .ftg-media-item a:hover img {
+	-ms-transform: perspective(800px) translate3d(0px,0px,100px);
+	-webkit-transform: perspective(800px) translate3d(0px,0px,100px);
+	transform: perspective(800px) translate3d(0px,0px,100px);
+}
+
+.ftg-author-media .ftg-media-item .ftg-overlay-meta {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.ftg-author-media .ftg-media-item .ftg-overlay-meta > span {
+	color: #ffffff;
+	line-height: 26px;
+	padding: 0 13px;
+	font-size: 16px;
+	font-weight: 600;
+	position: relative;
+	opacity: 0;
+
+	-webkit-transition: top .3s ease-in-out, bottom .3s ease-in-out, opacity .3s ease-in-out;
+	-moz-transition: top .3s ease-in-out, bottom .3s ease-in-out, opacity .3s ease-in-out;
+	-ms-transition: top .3s ease-in-out, bottom .3s ease-in-out, opacity .3s ease-in-out;
+	-o-transition: top .3s ease-in-out, bottom .3s ease-in-out, opacity .3s ease-in-out;
+	transition: top .3s ease-in-out, bottom .3s ease-in-out, opacity .3s ease-in-out;
+}
+
+.ftg-author-media .ftg-media-item .ftg-overlay-meta > span:first-child {
+	top: -50px;
+}
+
+.ftg-author-media .ftg-media-item .ftg-overlay-meta > span:last-child {
+	bottom: -50px;
+}
+
+.ftg-author-media .ftg-media-item a:hover .ftg-overlay-meta > span:first-child {
+	top: 0;
+	opacity: 1;
+}
+
+.ftg-author-media .ftg-media-item a:hover .ftg-overlay-meta > span:last-child {
+	bottom: 0;
+	opacity: 1;
+}
+
+.ftg-author-media .ftg-media-item .ftg-overlay-meta > span:before {
+	margin-right: 8px;
+}
+
+.ftg-main-wrapper {
+	margin-bottom: 30px !important;
+}
+
+html body .ftg-main-wrapper,
+html body .ftg-main-wrapper p {
+	font-family: 'Open Sans';
+}
+
+html body .ftg-main-wrapper.youtube,
+html body .ftg-main-wrapper.youtube p {
+	font-family: 'Roboto';
+}
+
+.ftg-main-wrapper.youtube * {
+	font-family: 'Roboto' !important;
+}
+
+.ftg-main-wrapper a {
+	text-decoration: none !important;
+	box-shadow: none !important;
+}
+
+.ftg-main-wrapper a:not(.ftg-insta-load-more):not(.ftg-user-follow):not(.ftg-youtube-load-more) {
+	border-bottom: none !important;
+}
+
+.ftg-main-wrapper .ftg-insta-load-more,
+.ftg-main-wrapper .ftg-youtube-load-more {
+	font-family: 'Open Sans';
+	color: #999999;
+	font-size: 13px;
+	line-height: 36px;
+	font-weight: 600;
+	border: 2px solid #DDDDDD;
+	padding: 0 15px !important;
+	white-space: pre;
+	height: 40px;
+	display: inline-block;
+	margin-top: 60px;
+	text-decoration: none;
+	box-shadow: none;
+	box-sizing: border-box;
+
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.ftg-insta-load-more:hover,
+.ftg-insta-load-more.ftg-loading,
+.ftg-youtube-load-more:hover,
+.ftg-youtube-load-more.ftg-loading {
+	border-color: #1e73be;
+	color: #1e73be;
+}
+
+.ftg-insta-load-more:before,
+.ftg-youtube-load-more:before {
+	content: '\e803';
+	font-family: 'options';
+	float: right;
+	margin-left: 10px;
+	font-size: 12px;
+	display: none;
+	animation: ftg_spin 2s linear infinite;
+}
+
+.ftg-insta-load-more.ftg-loading:before,
+.ftg-youtube-load-more.ftg-loading:before {
+	display: block;
+}
+
+@keyframes ftg_spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+.ftg-author-media {
+	/*perspective: 800px;*/
+}
+
+.ftg-author-media .ftg-media-item {
+	opacity: 0;
+	transform: rotateX(-90deg);
+	transition: all 0.5s cubic-bezier(.36,-0.64,.34,1.76);
+	perspective: 800px;
+}
+
+.ftg-author-media .ftg-media-item.show {
+	opacity: 1;
+	transform: none;
+	transition: all 0.5s cubic-bezier(.36,-0.64,.34,1.76);
+}
+
+/* Dialog */
+
+.ui-dialog.feed-the-grid-dialog {
+	z-index: 9999;
+	background: #fff;
+	position: relative;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.3);
+	box-shadow: 0 3px 6px rgba(0,0,0,.3);
+	border-radius: 4px;
+	font-family: 'Open Sans';
+	outline: none;
+}
+
+.ui-dialog.feed-the-grid-dialog.youtube {
+	position: fixed;
+	top: 50px !important;
+	background: transparent;
+	width: 100% !important;
+	left: 0 !important;
+	overflow-y: scroll !important;
+	height: 100% !important;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.ui-dialog.feed-the-grid-dialog.youtube .ftg-video-dialog {
+	margin: 0 auto;
+	/*background: #fff;*/
+	position: relative;
+	font-family: 'Roboto';
+/*	width: 0px !important;*/
+	/*height: 0px !important;*/
+	overflow: hidden;
+
+	-webkit-transition: width .2s ease-in-out, height .3s ease-in-out;
+	-moz-transition: width .2s ease-in-out, height .3s ease-in-out;
+	-ms-transition: width .2s ease-in-out, height .3s ease-in-out;
+	-o-transition: width .2s ease-in-out, height .3s ease-in-out;
+	transition: width .2s ease-in-out, height .3s ease-in-out;
+}
+
+.ftg-dialog-iframe-wrapper {
+	display: block;
+	width: 100%;
+	background: #000;
+}
+
+.ui-dialog.feed-the-grid-dialog.youtube .ftg-video-dialog.ftg-full-width {
+	width: 850px !important;
+	height: 478px !important;
+}
+
+.ui-dialog.feed-the-grid-dialog.youtube .ftg-video-dialog.ftg-full-width > iframe {
+	width: 850px !important;
+}
+
+.ui-dialog.feed-the-grid-dialog.youtube .ftg-video-dialog.ftg-remove-overflow {
+	overflow: visible;
+}
+
+.ui-dialog.feed-the-grid-dialog.youtube .ftg-video-dialog.ftg-remove-height {
+	height: auto !important;
+	margin-bottom: 80px;
+}
+
+.ui-dialog.feed-the-grid-dialog .ui-dialog-titlebar {
+	display: none;
+}
+
+.ftg-media-dialog-image {
+	width: 60%;
+	display: inline-block;
+}
+
+.ftg-media-dialog-image img {
+	display: block;
+}
+
+.ftg-media-dialog-side {
+	width: 40%;
+	display: inline-block;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.ftg-media-dialog-profile {
+	width: 35px;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.ftg-media-dialog-instagram {
+	display: block;
+	float: right;
+	margin-top: 8px;
+	padding: 5px 8px 6px;
+	border: 1px solid #2196f3;
+	border-radius: 4px;
+	line-height: 1;
+	font-size: 12px;
+	border-color: rgb(0, 142, 255);
+	color: rgb(0, 142, 255);
+}
+
+.ftg-media-dialog-link {
+	color: rgb(0, 142, 255);
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+	font-size: 12px;
+	line-height: 12px;
+	font-weight: bold;
+	margin-top: 13px;
+}
+
+.ftg-media-dialog-likes {
+	margin-right: 20px;
+}
+
+.ftg-media-dialog-likes,
+.ftg-media-dialog-comments,
+.ftg-media-dialog-date {
+	font-size: 12px;
+	line-height: 12px;
+	color: #000;
+	margin-top: 12px;
+	display: inline-block;
+}
+
+.ftg-media-dialog-likes:before,
+.ftg-media-dialog-comments:before {
+	font-size: 19px;
+	margin-right: 5px;
+}
+
+.ftg-media-dialog-date {
+	float: right;
+	margin-top: 18px;
+}
+
+.ui-widget-overlay {
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.ftg-media-dialog-caption {
+	border-top: 1px solid rgba(0,0,0,.08);
+	margin: 0 -15px;
+	padding: 0 15px;
+	margin-top: 11px;
+	padding-top: 15px;
+	font-size: 12px;
+	line-height: 12px;
+	color: #000;
+	text-align: left;
+}
+
+.ftg-media-dialog-caption a {
+	color: rgb(0, 142, 255);
+	font-size: 12px;
+	line-height: 12px;
+	margin-right: 5px;
+}
+
+.ftg-media-dialog-caption p {
+	display: inline-block;
+	margin-top: -1px;
+	margin-bottom: 0;
+}
+
+.ftg-media-dialog-comment-item {
+	margin-top: 17px;
+}
+
+.ftg-media-dialog-close,
+.ftg-youtube-dialog-close {
+	color: #676767;
+	position: absolute;
+	top: -35px;
+	right: -30px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.ftg-youtube-dialog-close {
+	top: 0px;
+	line-height: 20px;
+}
+
+.ftg-media-dialog-close:hover,
+.ftg-youtube-dialog-close:hover {
+	color: #fff;
+}
+
+.ftg-media-item-dialog.ui-dialog-content {
+	position: relative;
+}
+
+.ui-dialog.instagram {
+	background: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	top: 100px !important;
+	position: fixed;
+}
+
+.ui-dialog.instagram .ftg-media-item-dialog.ui-dialog-content {
+	background: transparent;
+	text-align: center;
+}
+
+.ftg-media-dialog-side-meta {
+	text-align: left;
+}
+
+.ftg-media-dialog-side > * {
+	min-width: 386px;
+}
+
+.ui-dialog.instagram .ftg-media-item-dialog.ui-dialog-content .ftg-media-dialog-image {
+	width: 0px;
+	height: 0px;
+	vertical-align: top;
+
+	-webkit-transition: width .2s ease-in-out, height .3s ease-in-out;
+	-moz-transition: width .2s ease-in-out, height .3s ease-in-out;
+	-ms-transition: width .2s ease-in-out, height .3s ease-in-out;
+	-o-transition: width .2s ease-in-out, height .3s ease-in-out;
+	transition: width .2s ease-in-out, height .3s ease-in-out;
+}
+
+.ui-dialog.instagram .ftg-media-item-dialog.ui-dialog-content.ftg-full-width .ftg-media-dialog-image {
+	width: 624px;
+	height: 624px;
+}
+
+.ui-dialog.instagram .ftg-media-item-dialog.ui-dialog-content .ftg-media-dialog-side {
+	width: 0px;
+	overflow: hidden;
+	padding: 15px 0;
+	background: #fff;
+	height: 624px;
+
+	-webkit-transition: width .2s ease-in-out, padding .3s ease-in-out;
+	-moz-transition: width .2s ease-in-out, padding .3s ease-in-out;
+	-ms-transition: width .2s ease-in-out, padding .3s ease-in-out;
+	-o-transition: width .2s ease-in-out, padding .3s ease-in-out;
+	transition: width .2s ease-in-out, padding .3s ease-in-out;
+}
+
+.ui-dialog.instagram .ftg-media-item-dialog.ui-dialog-content.ftg-show-content .ftg-media-dialog-side {
+	padding: 15px;
+	width: 416px;
+}
+
+.ftg-media-item-prev {
+	position: absolute;
+	left: -70px;
+	top: 50%;
+	font-size: 50px;
+	color: #676767;
+}
+
+.ftg-media-item-next {
+	position: absolute;
+	right: -70px;
+	top: 50%;
+	font-size: 50px;
+	color: #676767;
+}
+
+.ftg-media-item-prev:hover,
+.ftg-media-item-next:hover {
+	color: #fff;
+}
+
+/* Youtube */
+
+.ftg-channel-videos {
+	display: block;
+}
+
+.ftg-channel-videos .ftg-video-item {
+	width: 33.33%;
+	float: left;
+	padding: 10px;
+}
+
+.ftg-video-item .ftg-video-link {
+	display: block;
+	font-size: 16px;
+	line-height: 28px;
+	color: #1a89de;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.ftg-video-item .ftg-video-info {
+	background: #f3f3f3;
+	padding: 9px 17px;
+}
+
+.ftg-video-info .ftg-video-date {
+	font-size: 11px;
+	line-height: 19px;
+	color: #9f9f9f;
+	margin-top: -1px;
+	display: block;
+}
+
+.ftg-video-info .ftg-video-desc {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	color: #2a2a2a;
+	display: block;
+	margin-top: 6px;
+	overflow: hidden;
+	word-wrap: break-word;
+	text-overflow: ellipsis;
+	height: 58.8px;
+}
+
+.ftg-channel-info .ftg-channel-header {
+	min-height: 190px;
+	position: relative;
+	background: #ccc;
+}
+
+.ftg-channel-info .ftg-channel-header img {
+	position: absolute;
+	top: 15px;
+	left: 27px;
+}
+
+.ftg-channel-info .ftg-channel-name {
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 42px;
+	color: #292929;
+}
+
+.ftg-channel-info .ftg-channel-header-info {
+	padding: 6px 23px;
+}
+
+.ftg-channel-info .ftg-channel-description {
+	font-size: 13px;
+	line-height: 20px;
+	color: #292929;
+	font-weight: normal;
+	max-width: 80%;
+	float: left;
+	margin-top: -1px;
+}
+
+.ftg-channel-info .ftg-channel-subscribe {
+	width: 20%;
+	float: right;
+	text-align: right;
+}
+
+.ftg-channel-info .ftg-channel-header-meta {
+	float: right;
+	margin-top: 10px;
+	min-height: 32px;
+}
+
+.ftg-channel-header-meta .ftg-channel-header-meta-item {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #666666;
+	margin-right: 30px;
+}
+
+.ftg-channel-header-meta .ftg-channel-header-meta-item:last-child {
+	margin-right: 0;
+}
+
+.ftg-channel-header-meta .ftg-channel-header-meta-item:before {
+	margin: 0;
+	margin-right: 5px;
+}
+
+.ftg-channel-info .ftg-channel-tab {
+	list-style: none;
+	margin-top: 18px;
+	border-bottom: 3px solid #ebebeb;
+	margin-bottom: 30px;
+}
+
+.ftg-channel-info .ftg-channel-tab li {
+	font-weight: 600;
+	color: #191919;
+	font-size: 14px;
+	line-height: 24px;
+	border-bottom: 3px solid #ff0000;
+	display: inline-block;
+	padding: 0 14px;
+	padding-bottom: 7px;
+	margin-left: 11px;
+	margin-bottom: -3px;
+}
+
+.ftg-channel-video-wrapper {
+	position: relative;
+	overflow: hidden;
+}
+
+.ftg-main-wrapper.youtube.ftg-layout-slider .ftg-channel-video-wrapper .ftg-channel-videos {
+	width: 20000em;
+	position: relative;
+}
+
+.ftg-channel-video-wrapper .ftg-channel-videos .ftg-video-item {
+	float: left;
+	width: 33.33%;
+	box-sizing: border-box;
+}
+
+.ftg-channel-video-wrapper .ftg-channel-videos .ftg-slider-row {
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.ftg-main-wrapper.ftg-layout-grid .ftg-channel-videos .ftg-slider-row {
+	width: 100%;
+}
+
+.ftg-video-item .ftg-video-image {
+	position: relative;
+	cursor: pointer;
+}
+
+.ftg-video-item .ftg-video-image:before {
+	font-size: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: rgba(255,255,255,0.4);
+
+	-webkit-transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	-ms-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.ftg-video-item .ftg-video-image:hover:before {
+	color: rgba(255,255,255,0.7);
+}
+
+.ftg-video-item .ftg-video-image img {
+	display: block;
+	width: 100%;
+	opacity: 1;
+
+	-webkit-transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+	-ms-transition: opacity .2s ease-in-out;
+	-o-transition: opacity .2s ease-in-out;
+	transition: opacity .2s ease-in-out;
+}
+
+.ftg-video-image .ftg-video-duration {
+	font-size: 11px;
+	line-height: 19px;
+	padding: 1px 7px;
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+	border-radius: 3px;
+	position: absolute;
+	right: 4px;
+	bottom: 4px;
+	z-index: 2;
+}
+
+.ftg-video-image.ftg-inline-play img {
+	position: absolute;
+	z-index: 1;
+}
+
+.ftg-video-image.ftg-inline-play iframe {
+	margin-bottom: 0;
+	display: block;
+}
+
+.ftg-video-image.ftg-inline-play .ftg-video-duration {
+	display: none;
+}
+
+.ftg-video-image.ftg-inline-play img.ftg-hide-img {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.ftg-video-meta {
+	width: 100%;
+	display: block;
+	padding-top: 11px;
+	padding-bottom: 3px;
+}
+
+.ftg-video-meta .ftg-video-meta-item {
+	color: #959595;
+	font-size: 12px;
+	line-height: 21px;
+	font-weight: normal;
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+
+.ftg-video-meta .ftg-video-meta-item:first-child {
+	text-align: left;
+}
+
+.ftg-video-meta .ftg-video-meta-item:last-child {
+	text-align: right;
+}
+
+.ftg-video-meta .ftg-video-meta-item:before {
+	margin: 0;
+	margin-right: 5px;
+}
+
+.ftg-channel-video-wrapper .ftg-video-next,
+.ftg-channel-video-wrapper .ftg-video-prev {
+	background: rgba(0,0,0,0.4);
+	border-radius: 50%;
+	color: #fff;
+	width: 44px;
+	height: 44px;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 25px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+
+	-webkit-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	-ms-transition: background .3s ease-in-out;
+	-o-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+}
+
+.ftg-channel-video-wrapper .ftg-video-prev {
+	right: auto;
+	left: 0;
+}
+
+.ftg-channel-video-wrapper .ftg-video-next:hover,
+.ftg-channel-video-wrapper .ftg-video-prev:hover {
+	background: rgba(0,0,0,0.8);
+}
+
+.ftg-channel-video-wrapper .ftg-video-next:before,
+.ftg-channel-video-wrapper .ftg-video-prev:before {
+	margin: 0;
+}
+
+.ftg-channel-video-wrapper .ftg-video-next:before {
+	margin-left: 3px;
+}
+
+.ftg-video-dialog iframe {
+	display: block;
+	width: 0;
+	height: 478px;
+	margin: 0 auto;
+
+	-webkit-transition: width .2s ease-in-out;
+	-moz-transition: width .2s ease-in-out;
+	-ms-transition: width .2s ease-in-out;
+	-o-transition: width .2s ease-in-out;
+	transition: width .2s ease-in-out;
+}
+
+.ftg-video-dialog > iframe {
+	background: #000;
+}
+
+.ftg-video-dialog-inner {
+	height: 0;
+	overflow: hidden;
+	padding: 0 30px;
+	background: #fff;
+
+	-webkit-transition: height .3s ease-in-out, padding .3s ease-in-out;
+	-moz-transition: height .3s ease-in-out, padding .3s ease-in-out;
+	-ms-transition: height .3s ease-in-out, padding .3s ease-in-out;
+	-o-transition: height .3s ease-in-out, padding .3s ease-in-out;
+	transition: height .3s ease-in-out, padding .3s ease-in-out;
+}
+
+.ftg-video-dialog.ftg-show-content .ftg-video-dialog-inner {
+	height: 100%;
+	padding: 19px 30px;
+}
+
+.ftg-video-dialog.ftg-remove-height .ftg-video-dialog-inner {
+	height: auto;
+}
+
+.ftg-video-dialog-inner .ftg-video-dialog-title {
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 30px;
+	display: block;
+	padding-top: 6px;
+	color: #222222;
+}
+
+.ftg-video-dialog-inner .ftg-video-dialog-subscribe {
+	display: inline-block;
+    margin-top: 20px;
+    min-height: 57px;
+}
+
+.ftg-video-dialog-inner .ftg-video-dialog-meta {
+	float: right;
+	margin-top: 12px;
+}
+
+.ftg-video-dialog-inner .ftg-video-dialog-views {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 36px;
+    display: block;
+    text-align: right;
+    color: #555555;
+}
+
+.ftg-video-dialog-ratio {
+	display: block;
+    height: 2px;
+    background: #ccc;
+    margin-top: -3px;
+	min-width: 110px;
+}
+
+.ftg-video-dialog-ratio-inner {
+	height: 2px;
+    background: #2fa5ff;
+    display: block;
+}
+
+.ftg-video-dialog-published {
+	font-weight: 600;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.ftg-video-dialog-description {
+	border-top: 1px solid #e6e6e6;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+.ftg-video-dialog-full-description {
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: -1px;
+    max-height: 58px;
+    overflow: hidden;
+    display: block;
+}
+
+.ftg-toggle-description:before {
+	content: attr(data-text);
+}
+
+.ftg-toggle-description {
+	font-size: 12px;
+	line-height: 21px;
+    font-weight: normal;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #e6e6e6;
+    cursor: pointer;
+	padding-bottom: 8px;
+	margin-top: 2px;
+}
+
+.ftg-video-dialog-description.full-content .ftg-video-dialog-full-description {
+	max-height: none;
+}
+
+.ftg-video-dialog-comment-item .ftg-video-dialog-comment-image {
+	float: left;
+}
+
+.ftg-video-dialog-comment-side {
+	margin-left: 63px;
+	position: relative;
+	top: -9px;
+}
+
+.ftg-video-dialog-thumbsup,
+.ftg-video-dialog-thumbsdown {
+	font-size: 12px;
+	line-height: 21px;
+	font-weight: 500;
+	color: #909090;
+	margin-top: 8px;
+	display: inline-block;
+}
+
+.ftg-video-dialog-thumbsdown {
+	margin-left: 25px;
+}
+
+.ftg-video-dialog-comment-side a {
+	font-weight: 600;
+	color: #3c3c3c;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.ftg-video-dialog-comment-side .ftg-video-dialog-date {
+	font-size: 11px;
+	line-height: 19px;
+	font-weight: normal;
+	margin-left: 8px;
+	color: #3c3c3c;
+}
+
+.ftg-video-dialog-comment-side .ftg-video-dialog-comment-text {
+	line-height: 18px;
+	font-size: 13px;
+	color: #222;
+	margin: 0;
+	margin-top: -2px;
+}
+
+.ftg-video-dialog-comment-item {
+	display: block;
+	clear: both;
+	margin-bottom: 30px;
+	min-height: 50px;
+}
+
+.ftg-video-dialog-comments {
+	margin-top: 25px;
+}
+
+.ftg-comments-loading {
+	text-align: center;
+	display: block;
+}
+
+body.wp-admin .ftg-main-wrapper .ftg-channel-video-wrapper {
+	margin: 0;
+}
+
+/* Minimal header style*/
+
+.ftg-channel-info.ftg-style-minimal {
+	position: relative;
+}
+
+.ftg-channel-info.ftg-style-minimal .ftg-channel-header {
+	min-height: 100px;
+}
+
+.ftg-channel-info.ftg-style-minimal .ftg-channel-header img {
+	width: 100px;
+	height: 100px;
+	top: 0;
+	left: 0;
+}
+
+.ftg-channel-info.ftg-style-minimal .ftg-channel-header-info {
+	background: rgba(255,255,255,0.8);
+	padding-left: 123px;
+	padding-bottom: 13px;
+}
+
+.ftg-channel-info.ftg-style-minimal .ftg-channel-header-meta {
+	margin-top: 6px;
+}
+
+.ftg-channel-info.ftg-style-minimal .ftg-channel-subscribe {
+	margin-top: 1px;
+}
+
+.ftg-channel-info.ftg-style-minimal .ftg-channel-tab {
+	margin-top: 11px;
+}
+
+.ftg-channel-info.ftg-style-minimal .ftg-channel-description {
+	height: 40px;
+	overflow: hidden;
+}
+
+/* Video mode */
+
+.ftg-video-image.ftg-inline-play:before {
+	display: none;
+}
+
+.ftg-channel-info .ftg-channel-header.ftg-hide-bg {
+	background: #ccc !important;
+}
+
+.ftg-channel-info.ftg-style-full .ftg-channel-header .ftg-channel-header-info {
+	display: none;
+}
+
+.ftg-channel-info.ftg-style-minimal > .ftg-channel-header-info {
+	display: none;
+}
+
+/* Twitter */
+
+.ftg-twitter-header {
+	width: 100%;
+	display: block;
+}
+
+.ftg-twitter-header .ftg-twitter-header-image {
+	height: 400px;
+	width: 100%;
+	background-position: center !important;
+	background-size: cover !important;
+}
+
+.ftg-twitter-header-info {
+	background: #fff;
+	border-bottom: 1px solid #e1e8ed;
+	box-sizing: border-box;
+	height: 60px;
+}
+
+.ftg-twitter-header-info .ftg-twitter-header-info-item {
+	height: 60px;
+	box-sizing: border-box;
+	border-bottom: 0 solid;
+	display: inline-block;
+	line-height: 1;
+	padding: 14px 15px 7px;
+	text-align: center;
+}
+
+.ftg-twitter-header-info .ftg-twitter-header-info-item .ftg-twitter-item-name {
+	color: #66757f;
+	font-size: 11px;
+	letter-spacing: .02em;
+	text-transform: uppercase;
+	display: block;
+}
+
+.ftg-twitter-header-info .ftg-twitter-header-info-item .ftg-twitter-item-value {
+	color: #292f33;
+	font-size: 18px;
+	padding-top: 3px;
+	font-weight: 500;
+	display: block;
+}
+
+.ftg-twitter-wrapper * {
+	font-family: Arial,sans-serif;
+}
+
+.ftg-twitter-header-inner {
+	width: 75%;
+	float: right;
+}
+
+.ftg-twitter-sidebar {
+	width: 25%;
+	float: left;
+}
+
+body .ftg-twitter-middle {
+	width: 75%;
+	float: left;
+	margin-top: 10px;
+	padding-right: 0;
+}
+
+.ftg-twitter-sidebar,
+.ftg-twitter-middle {
+	padding: 0 5px;
+}
+
+.ftg-twitter-user-image {
+	background: #fff;
+	border: 5px solid #fff;
+	border-radius: 12px;
+	box-shadow: 0 1px 1px rgba(136,153,166,0.15);
+	height: 200px;
+	position: relative;
+	width: 200px;
+	margin-top: -173px;
+}
+
+.ftg-twitter-user-image img {
+	border-radius: 12px;
+	max-width: 100%;
+}
+
+.ftg-twitter-content-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.ftg-twitter-user-data .ftg-twitter-user-name {
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 1;
+	margin-right: 5px;
+	word-wrap: break-word;
+	color: #292f33;
+	text-decoration: none;
+	box-shadow: none;
+}
+
+.ftg-twitter-user-data .ftg-twitter-screenname {
+	color: #8899a6;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1;
+	margin-bottom: 10px;
+	text-decoration: none;
+	box-shadow: none;
+}
+
+.ftg-twitter-user-data .ftg-twitter-user-name:hover,
+.ftg-twitter-user-data .ftg-twitter-screenname:hover {
+	text-decoration: underline;
+}
+
+.ftg-twitter-user-desc {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	margin-bottom: 10px;
+	word-wrap: break-word;
+	margin-top: 10px;
+}
+
+.ftg-twitter-user-data span {
+	color: #292f33;
+	font-size: 14px;
+	line-height: 1;
+	margin-top: 10px;
+	display: block;
+}
+
+.ftg-twitter-user-data span:before {
+	margin: 0;
+	font-size: 18px;
+	color: #8899a6;
+	margin-right: 4px;
+}
+
+.ftg-twitter-user-data {
+	padding-top: 2px;
+	padding-left: 5px;
+}
+
+.ftg-twitter-user-info {
+	display: block;
+}
+
+.ftg-twitter-status-image {
+	overflow: hidden;
+	border-radius: 5px;
+	float: left;
+}
+
+.ftg-twitter-status-head .ftg-twitter-content-user-name {
+	font-weight: bold;
+	color: #292f33;
+	font-size: 14px;
+	line-height: 19px;
+	box-shadow: none;
+	margin-right: 4px;
+}
+
+.ftg-twitter-status-head .ftg-twitter-content-screenname {
+	font-size: 13px;
+	line-height: 17px;
+	color: #8899a6;
+	box-shadow: none;
+}
+
+.ftg-twitter-status-content {
+	margin-left: 58px;
+	position: relative;
+	top: -8px;
+}
+
+.ftg-twitter-status-date {
+	font-size: 13px;
+	line-height: 17px;
+	color: #8899a6;
+	margin-left: 8px;
+}
+
+.ftg-twitter-status-protected {
+	font-size: 12px;
+	color: #8899a6;
+	position: relative;
+	top: -1px;
+}
+
+.ftg-twitter-status-text {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 400;
+	margin-bottom: 0;
+	padding: 0;
+	margin-top: -3px;
+}
+
+.ftg-twitter-status-item {
+	border-bottom: 1px solid #e1e8ed;
+	padding: 9px 12px;
+	background: #fff;
+	display: none;
+}
+
+.ftg-twitter-status-item.shown {
+	display: block;
+}
+
+.ftg-twitter-status-item:hover {
+	background: #f5f8fa;
+}
+
+.ftg-twitter-middle-tweets {
+	border: 1px solid #e1e8ed;
+	border-top: none;
+	border-radius: 0 0 5px 5px;
+	overflow: hidden;
+}
+
+.ftg-twitter-middle > div .ftg-twitter-status-item:last-child {
+	border-bottom: none;
+}
+
+.ftg-twitter-middle-head {
+	border: 1px solid #e1e8ed;
+	border-top: none;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	background: #fff;
+}
+
+.ftg-twitter-middle-head a {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1;
+	box-shadow: none;
+	display: inline-block;
+	padding: 15px 15px 12px;
+}
+
+.ftg-twitter-middle-head a.active {
+	color: #292f33;
+}
+
+.ftg-twitter-status-media {
+	text-align: center;
+	border-radius: 5px;
+	display: block;
+	margin: 10px 0 0 0;
+	position: relative;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+.ftg-twitter-status-media img {
+	max-height: 506px;
+	max-width: 506px;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.ftg-twitter-status-meta span {
+	color: #aab8c2;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 27px;
+}
+
+.ftg-twitter-status-meta span:before {
+	color: #aab8c2;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 1;
+	margin: 0;
+	margin-right: 11px;
+	position: relative;
+	top: 1px;
+}
+
+.ftg-twitter-status-meta .ftg-twitter-status-favorites:before {
+	font-size: 16px;
+}
+
+.ftg-twitter-status-meta {
+	margin-top: 6px;
+}
+
+.ftg-twitter-sidebar.header-at-sidebar .ftg-twitter-user-image {
+	margin-top: 0;
+}
+
+.ftg-twitter-sidebar-header {
+	height: 95px;
+	background-position: center !important;
+	background-size: cover !important;
+}
+
+.ftg-twitter-sidebar.header-at-sidebar .ftg-twitter-user-image {
+	width: 72px;
+	height: 72px;
+	border-width: 2px;
+	margin: -30px 0 0 8px;
+	border-radius: 6px;
+}
+
+.ftg-twitter-sidebar.header-at-sidebar .ftg-twitter-user-image img {
+	border-radius: 6px;
+}
+
+.ftg-twitter-sidebar.header-at-sidebar {
+	margin-top: 10px;
+}
+
+.ftg-twitter-sidebar.header-at-sidebar .ftg-twitter-user-data .ftg-twitter-user-name {
+	font-size: 18px;
+	line-height: 25px;
+	color: #000;
+}
+
+.ftg-twitter-sidebar.header-at-sidebar .ftg-twitter-user-data .ftg-twitter-screenname {
+	font-size: 12px;
+	color: #66757f;
+}
+
+.ftg-twitter-sidebar.header-at-sidebar .ftg-twitter-user-data {
+	padding: 0;
+	padding-left: 88px;
+	margin-top: -35px;
+	width: 400px;
+}
+
+.ftg-twitter-sidebar.header-at-sidebar .ftg-twitter-user-data .ftg-twitter-user-meta {
+	margin: 0 !important;
+}
+
+.ftg-twitter-sidebar.header-at-sidebar .ftg-twitter-item-name {
+	color: #8899a6;
+	font-size: 10px;
+	letter-spacing: .02em;
+	text-transform: uppercase;
+}
+
+.ftg-twitter-sidebar.header-at-sidebar .ftg-twitter-item-value {
+	color: #368AA6;
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: -10px;
+	display: block;
+}
+
+.ftg-twitter-sidebar.header-at-sidebar .ftg-twitter-header-info-item {
+	width: 33.33%;
+	display: inline-block;
+	float: left;
+}
+
+.ftg-twitter-sidebar.header-at-sidebar {
+	background: #fff;
+	background-clip: content-box;
+	border-radius: 6px;
+	overflow: hidden;
+	padding: 0;
+	margin-right: 5px;
+	width: calc(25% - 8px);
+}
+
+.ftg-twitter-sidebar.header-at-sidebar .ftg-twitter-sidebar-info {
+	padding: 0 11px 11px 11px;
+}
+
+/* Responsiveness */
+
+@media (max-width: 1100px) {
+	.ftg-twitter-sidebar.header-at-sidebar .ftg-twitter-header-info-item {
+		width: 100%;
+	}
+
+	.ftg-twitter-sidebar.header-at-sidebar .ftg-twitter-user-data {
+		margin-top: 10px;
+		padding-left: 11px;
+		margin-bottom: 5px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+	.ftg-channel-info .ftg-channel-description {
+		max-width: 100%;
+	}
+
+	.ftg-channel-info .ftg-channel-subscribe {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.ftg-channel-info .ftg-channel-header-info {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.ftg-channel-info .ftg-channel-tab {
+		margin-left: 0;
+	}
+
+	.ftg-channel-info .ftg-channel-header-meta {
+		width: 100%;
+	}
+
+	.ftg-channel-info.ftg-style-minimal .ftg-channel-description,
+	.ftg-channel-info.ftg-style-minimal .ftg-channel-subscribe {
+		padding-right: 20px;
+	}
+
+	.ftg-twitter-sidebar.header-at-sidebar {
+		margin: 0;
+		width: 100%;
+	}
+
+	body .ftg-twitter-middle {
+		width: 100%;
+		padding: 0;
+	}
+
+	.ftg-twitter-sidebar.header-at-sidebar .ftg-twitter-header-info-item {
+		width: 33.33%;
+	}
+}
+
+@media (max-width: 991px) {
+	.ftg-twitter-wrapper.header-full .ftg-twitter-sidebar {
+		width: 100%;
+		margin-top: 5px;
+		background: #fff;
+		box-shadow: 0 1px 1px rgba(136,153,166,0.15);
+	}
+
+	.ftg-twitter-wrapper.header-full .ftg-twitter-user-image {
+		margin-top: 0;
+		float: left;
+		box-shadow: none;
+	}
+
+	.ftg-twitter-wrapper.header-full .ftg-twitter-user-data {
+		padding-left: 220px;
+	}
+
+	body .ftg-twitter-wrapper.header-full .ftg-twitter-middle {
+		padding-left: 0;
+		width: 100%;
+	}
+
+	.ftg-twitter-wrapper.header-full .ftg-twitter-header-inner {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.ftg-channel-info.ftg-style-minimal .ftg-channel-description {
+		max-width: 100%;
+	}
+
+	.ftg-channel-info.ftg-style-minimal .ftg-channel-subscribe {
+		width: 100%;
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 480px) {
+	.ftg-channel-info.ftg-style-minimal .ftg-channel-header-meta > span {
+		width: 100%;
+		display: block;
+	}
+
+	.ftg-twitter-status-date {
+		margin: 0;
+		display: block;
+		margin-top: -5px;
+		margin-bottom: 5px;
+	}
+
+	.ftg-twitter-wrapper.header-full .ftg-twitter-user-image {
+		width: 100px;
+		height: 100px;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.ftg-twitter-wrapper.header-full .ftg-twitter-user-data {
+		padding-left: 11px;
+		padding-bottom: 11px;
+	}
+
+	.ftg-twitter-header-info {
+		height: auto;
+	}
+
+	.ftg-twitter-wrapper.header-full .ftg-twitter-header-inner {
+		float: none;
+	}
+}
+
+/* Fonts */
+
+@font-face {
+	font-family: 'ftgoptions';
+	src: url('../font/options.eot?37135398');
+	src: url('../font/options.eot?37135398#iefix') format('embedded-opentype'),
+	 url('../font/options.woff2?37135398') format('woff2'),
+	 url('../font/options.woff?37135398') format('woff'),
+	 url('../font/options.ttf?37135398') format('truetype'),
+	 url('../font/options.svg?37135398#options') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: 'options';
+		src: url('../font/options.svg?37135398#options') format('svg');
+	}
+}
+*/
+ 
+ [class^="ftgicon-"]:before, [class*=" ftgicon-"]:before {
+	font-family: "ftgoptions";
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+ 
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	margin-right: .2em;
+	text-align: center;
+	/* opacity: .8; */
+ 
+	/* For safety - reset parent styles, that can break glyph codes*/
+	font-variant: normal;
+	text-transform: none;
+ 
+	/* fix buttons height, for twitter bootstrap */
+	line-height: 1em;
+ 
+	/* Animation center compensation - margins should be symmetric */
+	/* remove if not needed */
+	margin-left: .2em;
+ 
+	/* you can be more comfortable with increased icons size */
+	/* font-size: 120%; */
+ 
+	/* Font smoothing. That was taken from TWBS */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+ 
+	/* Uncomment for 3D effect */
+	/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.ftgicon-th:before { content: '\e800'; } /* '' */
+.ftgicon-heart-1:before { content: '\e801'; } /* '' */
+.ftgicon-heart-empty:before { content: '\e802'; } /* '' */
+.ftgicon-cancel:before { content: '\e803'; } /* '' */
+.ftgicon-briefcase:before { content: '\e804'; } /* '' */
+.ftgicon-ok:before { content: '\e805'; } /* '' */
+.ftgicon-cog:before { content: '\e806'; } /* '' */
+.ftgicon-ok-circled:before { content: '\e807'; } /* '' */
+.ftgicon-user:before { content: '\e808'; } /* '' */
+.ftgicon-eye:before { content: '\e809'; } /* '' */
+.ftgicon-play:before { content: '\e80d'; } /* '' */
+.ftgicon-youtube-play:before { content: '\e810'; } /* '' */
+.ftgicon-comment-1:before { content: '\e816'; } /* '' */
+.ftgicon-comment-empty:before { content: '\e81a'; } /* '' */
+.ftgicon-facebook-squared:before { content: '\e81e'; } /* '' */
+.ftgicon-sliders:before { content: '\e822'; } /* '' */
+.ftgicon-link:before { content: '\e823'; } /* '' */
+.ftgicon-lock:before { content: '\e826'; } /* '' */
+.ftgicon-angle-left:before { content: '\e82d'; } /* '' */
+.ftgicon-angle-right:before { content: '\e82e'; } /* '' */
+.ftgicon-retweet:before { content: '\e83e'; } /* '' */
+.ftgicon-instagram:before { content: '\e842'; } /* '' */
+.ftgicon-location:before { content: '\e847'; } /* '' */
+.ftgicon-youtube-squared:before { content: '\e84a'; } /* '' */
+.ftgicon-calendar:before { content: '\e857'; } /* '' */
+.ftgicon-thumbs-up-alt:before { content: '\f164'; } /* '' */
+.ftgicon-thumbs-down-alt:before { content: '\f165'; } /* '' */
+.ftgicon-newspaper:before { content: '\f1ea'; } /* '' */
+.ftgicon-trash:before { content: '\f1f8'; } /* '' */
+.ftgicon-twitter-squared:before { content: '\f304'; } /* '' */
